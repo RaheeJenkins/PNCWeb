@@ -1,0 +1,4 @@
+tests\CheckingRelatedTest.class
+tests\SavingsRelatedTest.class
+tests\SearchResultsTest.class
+tests\CreditCardsRelatedTest.class

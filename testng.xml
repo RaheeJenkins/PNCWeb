@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Automation" parallel="tests" thread-count="12">
+
+    <test name="Search Windows Chrome">
+
+        <parameter name="browserName" value="Chrome"/>
+        <parameter name="browserVersion" value="Any"/>
+        <parameter name="platform" value="Windows"/>
+
+        <classes>
+            <class name="tests.SearchResultsTest"/>
+        </classes>
+
+    </test>
+
+    <test name="Search Windows Firefox">
+
+        <parameter name="browserName" value="Firefox"/>
+        <parameter name="browserVersion" value="Any"/>
+        <parameter name="platform" value="Windows"/>
+
+        <classes>
+            <class name="tests.SearchResultsTest"/>
+        </classes>
+
+    </test>
+
+    <test name="Search Windows IE">
+
+        <parameter name="browserName" value="IE"/>
+        <parameter name="browserVersion" value="Any"/>
+        <parameter name="platform" value="Windows"/>
+
+        <classes>
+            <class name="tests.SearchResultsTest"/>
+        </classes>
+
+    </test>
+
+    <test name="Search Mac Safari">
+
+        <parameter name="browserName" value="Safari"/>
+        <parameter name="browserVersion" value="Any"/>
+        <parameter name="platform" value="Mac"/>
+
+        <classes>
+            <class name="tests.SearchResultsTest"/>
+        </classes>
+
+    </test>
+
+    <test name="Search Mac Chrome">
+
+        <parameter name="browserName" value="Chrome"/>
+        <parameter name="browserVersion" value="Any"/>
+        <parameter name="platform" value="Mac"/>
+
+        <classes>
+            <class name="tests.SearchResultsTest"/>
+        </classes>
+
+    </test>
+
+    <test name="Search Mac Firefox">
+
+        <parameter name="browserName" value="Firefox"/>
+        <parameter name="browserVersion" value="Any"/>
+        <parameter name="platform" value="Mac"/>
+
+        <classes>
+            <class name="tests.SearchResultsTest"/>
+        </classes>
+
+    </test>
+
+    <!-- ================================================= -->
+
+    <test name="Checking Windows Chrome">
+
+        <parameter name="browserName" value="Chrome"/>
+        <parameter name="browserVersion" value="Any"/>
+        <parameter name="platform" value="Windows"/>
+
+        <classes>
+            <class name="tests.CheckingRelatedTest"/>
+        </classes>
+
+    </test>
+
+    <test name="Checking Windows Firefox">
+
+        <parameter name="browserName" value="Firefox"/>
+        <parameter name="browserVersion" value="Any"/>
+        <parameter name="platform" value="Windows"/>
+
+        <classes>
+            <class name="tests.CheckingRelatedTest"/>
+        </classes>
+
+    </test>
+
+    <test name="Checking Windows IE">
+
+        <parameter name="browserName" value="IE"/>
+        <parameter name="browserVersion" value="Any"/>
+        <parameter name="platform" value="Windows"/>
+
+        <classes>
+            <class name="tests.CheckingRelatedTest"/>
+        </classes>
+
+    </test>
+
+    <test name="Checking Mac Safari">
+
+        <parameter name="browserName" value="Safari"/>
+        <parameter name="browserVersion" value="Any"/>
+        <parameter name="platform" value="Mac"/>
+
+        <classes>
+            <class name="tests.CheckingRelatedTest"/>
+        </classes>
+
+    </test>
+
+    <test name="Checking Mac Chrome">
+
+        <parameter name="browserName" value="Chrome"/>
+        <parameter name="browserVersion" value="Any"/>
+        <parameter name="platform" value="Mac"/>
+
+        <classes>
+            <class name="tests.CheckingRelatedTest"/>
+        </classes>
+
+    </test>
+
+    <test name="Checking Mac Firefox">
+
+        <parameter name="browserName" value="Firefox"/>
+        <parameter name="browserVersion" value="Any"/>
+        <parameter name="platform" value="Mac"/>
+
+        <classes>
+            <class name="tests.CheckingRelatedTest"/>
+        </classes>
+
+    </test>
+
+    <!-- ================================================= -->
+
+    <test name="Savings Windows Chrome">
+
+        <parameter name="browserName" value="Chrome"/>
+        <parameter name="browserVersion" value="Any"/>
+        <parameter name="platform" value="Windows"/>
+
+        <classes>
+            <class name="tests.SavingsRelatedTest"/>
+        </classes>
+
+    </test>
+
+    <test name="Savings Windows Firefox">
+
+        <parameter name="browserName" value="Firefox"/>
+        <parameter name="browserVersion" value="Any"/>
+        <parameter name="platform" value="Windows"/>
+
+        <classes>
+            <class name="tests.SavingsRelatedTest"/>
+        </classes>
+
+    </test>
+
+    <test name="Savings Windows IE">
+
+        <parameter name="browserName" value="IE"/>
+        <parameter name="browserVersion" value="Any"/>
+        <parameter name="platform" value="Windows"/>
+
+        <classes>
+            <class name="tests.SavingsRelatedTest"/>
+        </classes>
+
+    </test>
+
+    <test name="Savings Mac Safari">
+
+        <parameter name="browserName" value="Safari"/>
+        <parameter name="browserVersion" value="Any"/>
+        <parameter name="platform" value="Mac"/>
+
+        <classes>
+            <class name="tests.SavingsRelatedTest"/>
+        </classes>
+
+    </test>
+
+    <test name="Savings Mac Chrome">
+
+        <parameter name="browserName" value="Chrome"/>
+        <parameter name="browserVersion" value="Any"/>
+        <parameter name="platform" value="Mac"/>
+
+        <classes>
+            <class name="tests.SavingsRelatedTest"/>
+        </classes>
+
+    </test>
+
+    <test name="Savings Mac Firefox">
+
+        <parameter name="browserName" value="Firefox"/>
+        <parameter name="browserVersion" value="Any"/>
+        <parameter name="platform" value="Mac"/>
+
+        <classes>
+            <class name="tests.SavingsRelatedTest"/>
+        </classes>
+
+    </test>
+
+    <!-- ================================================= -->
+
+    <test name="Credit Cards Windows Chrome">
+
+        <parameter name="browserName" value="Chrome"/>
+        <parameter name="browserVersion" value="Any"/>
+        <parameter name="platform" value="Windows"/>
+
+        <classes>
+            <class name="tests.CreditCardsRelatedTest"/>
+        </classes>
+
+    </test>
+
+    <test name="Credit Cards Windows Firefox">
+
+        <parameter name="browserName" value="Firefox"/>
+        <parameter name="browserVersion" value="Any"/>
+        <parameter name="platform" value="Windows"/>
+
+        <classes>
+            <class name="tests.CreditCardsRelatedTest"/>
+        </classes>
+
+    </test>
+
+    <test name="Credit Cards Windows IE">
+
+        <parameter name="browserName" value="IE"/>
+        <parameter name="browserVersion" value="Any"/>
+        <parameter name="platform" value="Windows"/>
+
+        <classes>
+            <class name="tests.CreditCardsRelatedTest"/>
+        </classes>
+
+    </test>
+
+    <test name="Credit Cards Mac Safari">
+
+        <parameter name="browserName" value="Safari"/>
+        <parameter name="browserVersion" value="Any"/>
+        <parameter name="platform" value="Mac"/>
+
+        <classes>
+            <class name="tests.CreditCardsRelatedTest"/>
+        </classes>
+
+    </test>
+
+    <test name="Credit Cards Mac Chrome">
+
+        <parameter name="browserName" value="Chrome"/>
+        <parameter name="browserVersion" value="Any"/>
+        <parameter name="platform" value="Mac"/>
+
+        <classes>
+            <class name="tests.CreditCardsRelatedTest"/>
+        </classes>
+
+    </test>
+
+    <test name="Credit Cards Mac Firefox">
+
+        <parameter name="browserName" value="Firefox"/>
+        <parameter name="browserVersion" value="Any"/>
+        <parameter name="platform" value="Mac"/>
+
+        <classes>
+            <class name="tests.CreditCardsRelatedTest"/>
+        </classes>
+
+    </test>
+
+</suite>

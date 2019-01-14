@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="12" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Test Automation]" parallel="tests">
+  <test thread-count="12" verbose="0" name="Search Windows IE(failed)" parallel="tests">
+    <parameter name="browserVersion" value="Any"/>
+    <parameter name="browserName" value="IE"/>
+    <parameter name="platform" value="Windows"/>
+    <classes>
+      <class name="tests.SearchResultsTest">
+        <methods>
+          <include name="verify_item_displayed_in_search_results_list"/>
+          <include name="setUp"/>
+          <include name="setUpAllPages"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.SearchResultsTest -->
+    </classes>
+  </test> <!-- Search Windows IE(failed) -->
+  <test thread-count="12" verbose="0" name="Search Mac Firefox(failed)" parallel="tests">
+    <parameter name="browserVersion" value="Any"/>
+    <parameter name="browserName" value="Firefox"/>
+    <parameter name="platform" value="Mac"/>
+    <classes>
+      <class name="tests.SearchResultsTest">
+        <methods>
+          <include name="verify_item_displayed_in_search_results_list"/>
+          <include name="setUp"/>
+          <include name="setUpAllPages"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.SearchResultsTest -->
+    </classes>
+  </test> <!-- Search Mac Firefox(failed) -->
+  <test thread-count="12" verbose="0" name="Checking Mac Firefox(failed)" parallel="tests">
+    <parameter name="browserVersion" value="Any"/>
+    <parameter name="browserName" value="Firefox"/>
+    <parameter name="platform" value="Mac"/>
+    <classes>
+      <class name="tests.CheckingRelatedTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setUpAllPages"/>
+          <include name="user_should_be_on_checking_page"/>
+        </methods>
+      </class> <!-- tests.CheckingRelatedTest -->
+    </classes>
+  </test> <!-- Checking Mac Firefox(failed) -->
+  <test thread-count="12" verbose="0" name="Savings Windows IE(failed)" parallel="tests">
+    <parameter name="browserVersion" value="Any"/>
+    <parameter name="browserName" value="IE"/>
+    <parameter name="platform" value="Windows"/>
+    <classes>
+      <class name="tests.SavingsRelatedTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setUpAllPages"/>
+          <include name="user_should_be_on_savings_page"/>
+        </methods>
+      </class> <!-- tests.SavingsRelatedTest -->
+    </classes>
+  </test> <!-- Savings Windows IE(failed) -->
+  <test thread-count="12" verbose="0" name="Savings Mac Firefox(failed)" parallel="tests">
+    <parameter name="browserVersion" value="Any"/>
+    <parameter name="browserName" value="Firefox"/>
+    <parameter name="platform" value="Mac"/>
+    <classes>
+      <class name="tests.SavingsRelatedTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setUpAllPages"/>
+          <include name="user_should_be_on_savings_page"/>
+        </methods>
+      </class> <!-- tests.SavingsRelatedTest -->
+    </classes>
+  </test> <!-- Savings Mac Firefox(failed) -->
+  <test thread-count="12" verbose="0" name="Credit Cards Windows IE(failed)" parallel="tests">
+    <parameter name="browserVersion" value="Any"/>
+    <parameter name="browserName" value="IE"/>
+    <parameter name="platform" value="Windows"/>
+    <classes>
+      <class name="tests.CreditCardsRelatedTest">
+        <methods>
+          <include name="setUpAllPages"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="user_should_be_on_credit_cards_page"/>
+        </methods>
+      </class> <!-- tests.CreditCardsRelatedTest -->
+    </classes>
+  </test> <!-- Credit Cards Windows IE(failed) -->
+  <test thread-count="12" verbose="0" name="Credit Cards Mac Firefox(failed)" parallel="tests">
+    <parameter name="browserVersion" value="Any"/>
+    <parameter name="browserName" value="Firefox"/>
+    <parameter name="platform" value="Mac"/>
+    <classes>
+      <class name="tests.CreditCardsRelatedTest">
+        <methods>
+          <include name="setUpAllPages"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="user_should_be_on_credit_cards_page"/>
+        </methods>
+      </class> <!-- tests.CreditCardsRelatedTest -->
+    </classes>
+  </test> <!-- Credit Cards Mac Firefox(failed) -->
+  <test thread-count="12" verbose="0" name="Search Mac Safari(failed)" parallel="tests">
+    <parameter name="browserVersion" value="Any"/>
+    <parameter name="browserName" value="Safari"/>
+    <parameter name="platform" value="Mac"/>
+    <classes>
+      <class name="tests.SearchResultsTest">
+        <methods>
+          <include name="verify_item_displayed_in_search_results_list"/>
+          <include name="setUp"/>
+          <include name="setUpAllPages"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.SearchResultsTest -->
+    </classes>
+  </test> <!-- Search Mac Safari(failed) -->
+  <test thread-count="12" verbose="0" name="Checking Mac Safari(failed)" parallel="tests">
+    <parameter name="browserVersion" value="Any"/>
+    <parameter name="browserName" value="Safari"/>
+    <parameter name="platform" value="Mac"/>
+    <classes>
+      <class name="tests.CheckingRelatedTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setUpAllPages"/>
+          <include name="user_should_be_on_checking_page"/>
+        </methods>
+      </class> <!-- tests.CheckingRelatedTest -->
+    </classes>
+  </test> <!-- Checking Mac Safari(failed) -->
+</suite> <!-- Failed suite [Test Automation] -->

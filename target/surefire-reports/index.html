@@ -1,0 +1,1713 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 7 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Test_Automation">
+              <span class="suite-name border-failed">Test Automation</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Test_Automation">
+                    <span>C:\Users\Rahee\IdeaProjects\PNCWeb\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Test_Automation">
+                    <span class="test-stats">24 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Test_Automation">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Test_Automation">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Test_Automation">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Test_Automation">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Test_Automation">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">24 methods, 7 failed,  2 skipped,  15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Test_Automation" class="hide-methods failed suite-Test_Automation"> (hide)</a> <!-- hide-methods failed suite-Test_Automation -->
+                      <a href="#" panel-name="suite-Test_Automation" class="show-methods failed suite-Test_Automation"> (show)</a> <!-- show-methods failed suite-Test_Automation -->
+                    </span>
+                    <div class="method-list-content failed suite-Test_Automation">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.CheckingRelatedTest" hash-for-method="user_should_be_on_checking_page">user_should_be_on_checking_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.CreditCardsRelatedTest" hash-for-method="user_should_be_on_credit_cards_page">user_should_be_on_credit_cards_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.CreditCardsRelatedTest" hash-for-method="user_should_be_on_credit_cards_page">user_should_be_on_credit_cards_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.SavingsRelatedTest" hash-for-method="user_should_be_on_savings_page">user_should_be_on_savings_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.SavingsRelatedTest" hash-for-method="user_should_be_on_savings_page">user_should_be_on_savings_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.SearchResultsTest" hash-for-method="verify_item_displayed_in_search_results_list">verify_item_displayed_in_search_results_list</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.SearchResultsTest" hash-for-method="verify_item_displayed_in_search_results_list">verify_item_displayed_in_search_results_list</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Test_Automation -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Test_Automation" class="hide-methods skipped suite-Test_Automation"> (hide)</a> <!-- hide-methods skipped suite-Test_Automation -->
+                      <a href="#" panel-name="suite-Test_Automation" class="show-methods skipped suite-Test_Automation"> (show)</a> <!-- show-methods skipped suite-Test_Automation -->
+                    </span>
+                    <div class="method-list-content skipped suite-Test_Automation">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.CheckingRelatedTest" hash-for-method="user_should_be_on_checking_page">user_should_be_on_checking_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.SearchResultsTest" hash-for-method="verify_item_displayed_in_search_results_list">verify_item_displayed_in_search_results_list</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Test_Automation -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Test_Automation" class="hide-methods passed suite-Test_Automation"> (hide)</a> <!-- hide-methods passed suite-Test_Automation -->
+                      <a href="#" panel-name="suite-Test_Automation" class="show-methods passed suite-Test_Automation"> (show)</a> <!-- show-methods passed suite-Test_Automation -->
+                    </span>
+                    <div class="method-list-content passed suite-Test_Automation">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.CheckingRelatedTest" hash-for-method="user_should_be_on_checking_page">user_should_be_on_checking_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.CheckingRelatedTest" hash-for-method="user_should_be_on_checking_page">user_should_be_on_checking_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.CheckingRelatedTest" hash-for-method="user_should_be_on_checking_page">user_should_be_on_checking_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.CheckingRelatedTest" hash-for-method="user_should_be_on_checking_page">user_should_be_on_checking_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.CreditCardsRelatedTest" hash-for-method="user_should_be_on_credit_cards_page">user_should_be_on_credit_cards_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.CreditCardsRelatedTest" hash-for-method="user_should_be_on_credit_cards_page">user_should_be_on_credit_cards_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.CreditCardsRelatedTest" hash-for-method="user_should_be_on_credit_cards_page">user_should_be_on_credit_cards_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.CreditCardsRelatedTest" hash-for-method="user_should_be_on_credit_cards_page">user_should_be_on_credit_cards_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.SavingsRelatedTest" hash-for-method="user_should_be_on_savings_page">user_should_be_on_savings_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.SavingsRelatedTest" hash-for-method="user_should_be_on_savings_page">user_should_be_on_savings_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.SavingsRelatedTest" hash-for-method="user_should_be_on_savings_page">user_should_be_on_savings_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.SavingsRelatedTest" hash-for-method="user_should_be_on_savings_page">user_should_be_on_savings_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.SearchResultsTest" hash-for-method="verify_item_displayed_in_search_results_list">verify_item_displayed_in_search_results_list</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.SearchResultsTest" hash-for-method="verify_item_displayed_in_search_results_list">verify_item_displayed_in_search_results_list</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="tests.SearchResultsTest" hash-for-method="verify_item_displayed_in_search_results_list">verify_item_displayed_in_search_results_list</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Test_Automation -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Test_Automation" class="panel Test_Automation">
+          <div class="suite-Test_Automation-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.CheckingRelatedTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_be_on_checking_page">
+                  </a> <!-- user_should_be_on_checking_page -->
+                  <span class="method-name">user_should_be_on_checking_page</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[RemoteWebDriver: firefox on MAC (14e12d90-a151-c941-8101-08e9b46eea49)] -&gt; xpath: //ul[@class=&apos;level-2  expanded&apos;]//span[text()=&apos;Banking&apos;]] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;WINDOWS-KEN7H9H&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12172.0, moz:profile: /var/folders/yk/mdlr7xzj1s5..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, reportUrl: https://sales.experitest.co..., rotatable: false, sessionId: 14e12d90-a151-c941-8101-08e..., timeouts: {implicit: 0.0, pageLoad: 300000.0, script: 30000.0}}
+Session ID: 14e12d90-a151-c941-8101-08e9b46eea49
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at pages.BankingDropDownPage.hover_above_banking_dropdown_menu(BankingDropDownPage.java:28)
+	at tests.CheckingRelatedTest.user_should_be_on_checking_page(CheckingRelatedTest.java:29)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation-class-failed -->
+          <div class="suite-Test_Automation-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.SavingsRelatedTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_be_on_savings_page">
+                  </a> <!-- user_should_be_on_savings_page -->
+                  <span class="method-name">user_should_be_on_savings_page</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //h3[text()=&apos;Is this your zip code?&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;dcc5298898&apos;, time: &apos;2018-11-11T14:34:33.499Z&apos;
+System info: host: &apos;SALES-SELENIUM&apos;, ip: &apos;172.25.0.21&apos;, os.name: &apos;Windows NT (unknown)&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: driver.version: unknown
+Command duration or timeout: 0 milliseconds
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+	at pages.banking.SavingsMainPage.if_zip_code_is_present_then_handle(SavingsMainPage.java:28)
+	at tests.SavingsRelatedTest.user_should_be_on_savings_page(SavingsRelatedTest.java:32)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //h3[text()=&apos;Is this your zip code?&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;dcc5298898&apos;, time: &apos;2018-11-11T14:34:33.499Z&apos;
+System info: host: &apos;SALES-SELENIUM&apos;, ip: &apos;172.25.0.21&apos;, os.name: &apos;Windows NT (unknown)&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;WINDOWS-KEN7H9H&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: driver.version: unknown
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_be_on_savings_page">
+                  </a> <!-- user_should_be_on_savings_page -->
+                  <span class="method-name">user_should_be_on_savings_page</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[RemoteWebDriver: firefox on MAC (dbf35591-f32d-114a-9e23-1b760ed8096d)] -&gt; xpath: //ul[@class=&apos;level-2  expanded&apos;]//span[text()=&apos;Banking&apos;]] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;WINDOWS-KEN7H9H&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12570.0, moz:profile: /var/folders/yk/mdlr7xzj1s5..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, reportUrl: https://sales.experitest.co..., rotatable: false, sessionId: dbf35591-f32d-114a-9e23-1b7..., timeouts: {implicit: 0.0, pageLoad: 300000.0, script: 30000.0}}
+Session ID: dbf35591-f32d-114a-9e23-1b760ed8096d
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at pages.BankingDropDownPage.hover_above_banking_dropdown_menu(BankingDropDownPage.java:28)
+	at tests.SavingsRelatedTest.user_should_be_on_savings_page(SavingsRelatedTest.java:29)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation-class-failed -->
+          <div class="suite-Test_Automation-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.SearchResultsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_item_displayed_in_search_results_list">
+                  </a> <!-- verify_item_displayed_in_search_results_list -->
+                  <span class="method-name">verify_item_displayed_in_search_results_list</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[RemoteWebDriver: internet explorer on WINDOWS (9e8cb5fd-f7d7-46d4-924d-3472b6df832b)] -&gt; id: navSearchField] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;WINDOWS-KEN7H9H&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), reportUrl: https://sales.experitest.co..., se:ieOptions: {browserAttachTimeout: 0.0, elementScrollBehavior: 0.0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000.0, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:28115/, nativeEvents: true, requireWindowFocus: false}, sessionId: 9e8cb5fd-f7d7-46d4-924d-347..., setWindowRect: true, timeouts: {implicit: 0.0, pageLoad: 300000.0, script: 30000.0}, unhandledPromptBehavior: dismiss}
+Session ID: 9e8cb5fd-f7d7-46d4-924d-3472b6df832b
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at pages.HomePage.type_into_search_field_with(HomePage.java:27)
+	at tests.SearchResultsTest.verify_item_displayed_in_search_results_list(SearchResultsTest.java:30)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_item_displayed_in_search_results_list">
+                  </a> <!-- verify_item_displayed_in_search_results_list -->
+                  <span class="method-name">verify_item_displayed_in_search_results_list</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[RemoteWebDriver: firefox on MAC (daba46bb-54e0-d744-aabb-3d895b7b7de8)] -&gt; class name: search-toggle] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;WINDOWS-KEN7H9H&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12103.0, moz:profile: /var/folders/yk/mdlr7xzj1s5..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, reportUrl: https://sales.experitest.co..., rotatable: false, sessionId: daba46bb-54e0-d744-aabb-3d8..., timeouts: {implicit: 0.0, pageLoad: 300000.0, script: 30000.0}}
+Session ID: daba46bb-54e0-d744-aabb-3d895b7b7de8
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at pages.HomePage.click_on_search_icon(HomePage.java:21)
+	at tests.SearchResultsTest.verify_item_displayed_in_search_results_list(SearchResultsTest.java:29)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation-class-failed -->
+          <div class="suite-Test_Automation-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.CreditCardsRelatedTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_be_on_credit_cards_page">
+                  </a> <!-- user_should_be_on_credit_cards_page -->
+                  <span class="method-name">user_should_be_on_credit_cards_page</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[RemoteWebDriver: internet explorer on WINDOWS (8ad082b2-0634-41cd-9469-80a0a8d983f6)] -&gt; xpath: //a[text()=&apos;Compare Our Credit Cards&apos;]] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;WINDOWS-KEN7H9H&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), reportUrl: https://sales.experitest.co..., se:ieOptions: {browserAttachTimeout: 0.0, elementScrollBehavior: 0.0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000.0, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:24798/, nativeEvents: true, requireWindowFocus: false}, sessionId: 8ad082b2-0634-41cd-9469-80a..., setWindowRect: true, timeouts: {implicit: 0.0, pageLoad: 300000.0, script: 30000.0}, unhandledPromptBehavior: dismiss}
+Session ID: 8ad082b2-0634-41cd-9469-80a0a8d983f6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at pages.banking.CreditCardsMainPage.verify_user_is_on_main_personal_credit_cards_accounts_page(CreditCardsMainPage.java:25)
+	at tests.CreditCardsRelatedTest.user_should_be_on_credit_cards_page(CreditCardsRelatedTest.java:32)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_be_on_credit_cards_page">
+                  </a> <!-- user_should_be_on_credit_cards_page -->
+                  <span class="method-name">user_should_be_on_credit_cards_page</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[RemoteWebDriver: firefox on MAC (dba257ac-4569-e944-b8fc-e1aad39a332b)] -&gt; xpath: //ul[@class=&apos;level-2  expanded&apos;]//span[text()=&apos;Banking&apos;]] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;WINDOWS-KEN7H9H&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12759.0, moz:profile: /var/folders/yk/mdlr7xzj1s5..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, reportUrl: https://sales.experitest.co..., rotatable: false, sessionId: dba257ac-4569-e944-b8fc-e1a..., timeouts: {implicit: 0.0, pageLoad: 300000.0, script: 30000.0}}
+Session ID: dba257ac-4569-e944-b8fc-e1aad39a332b
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at pages.BankingDropDownPage.hover_above_banking_dropdown_menu(BankingDropDownPage.java:28)
+	at tests.CreditCardsRelatedTest.user_should_be_on_credit_cards_page(CreditCardsRelatedTest.java:29)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation-class-failed -->
+          <div class="suite-Test_Automation-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">tests.CheckingRelatedTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_be_on_checking_page">
+                  </a> <!-- user_should_be_on_checking_page -->
+                  <span class="method-name">user_should_be_on_checking_page</span>
+                  <div class="stack-trace">org.openqa.selenium.UnsupportedCommandException: Timed out on forward request to selenium agent:Read timed out
+Command duration or timeout: 299.72 seconds
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;WINDOWS-KEN7H9H&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, reportUrl: https://sales.experitest.co..., rotatable: false, sessionId: 734EDF1D-F10A-4781-95D9-B0B..., version: 13605.3.8, webStorageEnabled: true}
+Session ID: 734EDF1D-F10A-4781-95D9-B0B877C8521C
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:848)
+	at pages.PageObject.navigateTo(PageObject.java:27)
+	at tests.CheckingRelatedTest.setUpAllPages(CheckingRelatedTest.java:23)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation-class-skipped -->
+          <div class="suite-Test_Automation-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">tests.SearchResultsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_item_displayed_in_search_results_list">
+                  </a> <!-- verify_item_displayed_in_search_results_list -->
+                  <span class="method-name">verify_item_displayed_in_search_results_list</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Unable to parse remote response: Could not start selenium grid test. Test request timed out. No browser found matching the desired capabilities {PNC=PNC_Safari_Desktop, browserName=safari, newSessionWaitTimeout=300, platform=MAC, testName=verify_item_displayed_in_search_results_list}
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;WINDOWS-KEN7H9H&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:111)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:143)
+	at base.BaseUtil.startSafari(BaseUtil.java:97)
+	at base.BaseUtil.startBrowser(BaseUtil.java:71)
+	at base.BaseUtil.setUp(BaseUtil.java:37)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation-class-skipped -->
+          <div class="suite-Test_Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.CheckingRelatedTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_be_on_checking_page">
+                  </a> <!-- user_should_be_on_checking_page -->
+                  <span class="method-name">user_should_be_on_checking_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_be_on_checking_page">
+                  </a> <!-- user_should_be_on_checking_page -->
+                  <span class="method-name">user_should_be_on_checking_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_be_on_checking_page">
+                  </a> <!-- user_should_be_on_checking_page -->
+                  <span class="method-name">user_should_be_on_checking_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_be_on_checking_page">
+                  </a> <!-- user_should_be_on_checking_page -->
+                  <span class="method-name">user_should_be_on_checking_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation-class-passed -->
+          <div class="suite-Test_Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.SavingsRelatedTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_be_on_savings_page">
+                  </a> <!-- user_should_be_on_savings_page -->
+                  <span class="method-name">user_should_be_on_savings_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_be_on_savings_page">
+                  </a> <!-- user_should_be_on_savings_page -->
+                  <span class="method-name">user_should_be_on_savings_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_be_on_savings_page">
+                  </a> <!-- user_should_be_on_savings_page -->
+                  <span class="method-name">user_should_be_on_savings_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_be_on_savings_page">
+                  </a> <!-- user_should_be_on_savings_page -->
+                  <span class="method-name">user_should_be_on_savings_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation-class-passed -->
+          <div class="suite-Test_Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.SearchResultsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_item_displayed_in_search_results_list">
+                  </a> <!-- verify_item_displayed_in_search_results_list -->
+                  <span class="method-name">verify_item_displayed_in_search_results_list</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_item_displayed_in_search_results_list">
+                  </a> <!-- verify_item_displayed_in_search_results_list -->
+                  <span class="method-name">verify_item_displayed_in_search_results_list</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_item_displayed_in_search_results_list">
+                  </a> <!-- verify_item_displayed_in_search_results_list -->
+                  <span class="method-name">verify_item_displayed_in_search_results_list</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation-class-passed -->
+          <div class="suite-Test_Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.CreditCardsRelatedTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_be_on_credit_cards_page">
+                  </a> <!-- user_should_be_on_credit_cards_page -->
+                  <span class="method-name">user_should_be_on_credit_cards_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_be_on_credit_cards_page">
+                  </a> <!-- user_should_be_on_credit_cards_page -->
+                  <span class="method-name">user_should_be_on_credit_cards_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_be_on_credit_cards_page">
+                  </a> <!-- user_should_be_on_credit_cards_page -->
+                  <span class="method-name">user_should_be_on_credit_cards_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_be_on_credit_cards_page">
+                  </a> <!-- user_should_be_on_credit_cards_page -->
+                  <span class="method-name">user_should_be_on_credit_cards_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation-class-passed -->
+        </div> <!-- panel Test_Automation -->
+        <div panel-name="test-xml-Test_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Rahee\IdeaProjects\PNCWeb\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;12&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Test Automation&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Search Windows Chrome&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browserVersion&quot; value=&quot;Any&quot;/&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Windows&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.SearchResultsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Search Windows Chrome --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Search Windows Firefox&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browserVersion&quot; value=&quot;Any&quot;/&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;Firefox&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Windows&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.SearchResultsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Search Windows Firefox --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Search Windows IE&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browserVersion&quot; value=&quot;Any&quot;/&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;IE&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Windows&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.SearchResultsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Search Windows IE --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Search Mac Safari&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browserVersion&quot; value=&quot;Any&quot;/&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;Safari&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Mac&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.SearchResultsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Search Mac Safari --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Search Mac Chrome&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browserVersion&quot; value=&quot;Any&quot;/&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Mac&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.SearchResultsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Search Mac Chrome --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Search Mac Firefox&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browserVersion&quot; value=&quot;Any&quot;/&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;Firefox&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Mac&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.SearchResultsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Search Mac Firefox --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Checking Windows Chrome&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browserVersion&quot; value=&quot;Any&quot;/&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Windows&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.CheckingRelatedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Checking Windows Chrome --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Checking Windows Firefox&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browserVersion&quot; value=&quot;Any&quot;/&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;Firefox&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Windows&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.CheckingRelatedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Checking Windows Firefox --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Checking Windows IE&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browserVersion&quot; value=&quot;Any&quot;/&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;IE&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Windows&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.CheckingRelatedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Checking Windows IE --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Checking Mac Safari&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browserVersion&quot; value=&quot;Any&quot;/&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;Safari&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Mac&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.CheckingRelatedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Checking Mac Safari --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Checking Mac Chrome&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browserVersion&quot; value=&quot;Any&quot;/&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Mac&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.CheckingRelatedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Checking Mac Chrome --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Checking Mac Firefox&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browserVersion&quot; value=&quot;Any&quot;/&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;Firefox&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Mac&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.CheckingRelatedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Checking Mac Firefox --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Savings Windows Chrome&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browserVersion&quot; value=&quot;Any&quot;/&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Windows&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.SavingsRelatedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Savings Windows Chrome --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Savings Windows Firefox&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browserVersion&quot; value=&quot;Any&quot;/&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;Firefox&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Windows&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.SavingsRelatedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Savings Windows Firefox --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Savings Windows IE&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browserVersion&quot; value=&quot;Any&quot;/&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;IE&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Windows&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.SavingsRelatedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Savings Windows IE --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Savings Mac Safari&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browserVersion&quot; value=&quot;Any&quot;/&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;Safari&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Mac&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.SavingsRelatedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Savings Mac Safari --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Savings Mac Chrome&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browserVersion&quot; value=&quot;Any&quot;/&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Mac&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.SavingsRelatedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Savings Mac Chrome --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Savings Mac Firefox&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browserVersion&quot; value=&quot;Any&quot;/&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;Firefox&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Mac&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.SavingsRelatedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Savings Mac Firefox --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Credit Cards Windows Chrome&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browserVersion&quot; value=&quot;Any&quot;/&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Windows&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.CreditCardsRelatedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Credit Cards Windows Chrome --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Credit Cards Windows Firefox&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browserVersion&quot; value=&quot;Any&quot;/&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;Firefox&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Windows&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.CreditCardsRelatedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Credit Cards Windows Firefox --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Credit Cards Windows IE&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browserVersion&quot; value=&quot;Any&quot;/&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;IE&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Windows&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.CreditCardsRelatedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Credit Cards Windows IE --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Credit Cards Mac Safari&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browserVersion&quot; value=&quot;Any&quot;/&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;Safari&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Mac&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.CreditCardsRelatedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Credit Cards Mac Safari --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Credit Cards Mac Chrome&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browserVersion&quot; value=&quot;Any&quot;/&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Mac&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.CreditCardsRelatedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Credit Cards Mac Chrome --&gt;
+  &lt;test thread-count=&quot;12&quot; verbose=&quot;0&quot; name=&quot;Credit Cards Mac Firefox&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browserVersion&quot; value=&quot;Any&quot;/&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;Firefox&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Mac&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.CreditCardsRelatedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Credit Cards Mac Firefox --&gt;
+&lt;/suite&gt; &lt;!-- Test Automation --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Test_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Test Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Search Windows Chrome (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Search Windows Firefox (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Search Windows IE (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Search Mac Safari (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Search Mac Chrome (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Search Mac Firefox (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Checking Windows Chrome (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Checking Windows Firefox (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Checking Windows IE (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Checking Mac Safari (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Checking Mac Chrome (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Checking Mac Firefox (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Savings Windows Chrome (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Savings Windows Firefox (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Savings Windows IE (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Savings Mac Safari (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Savings Mac Chrome (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Savings Mac Firefox (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Credit Cards Windows Chrome (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Credit Cards Windows Firefox (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Credit Cards Windows IE (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Credit Cards Mac Safari (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Credit Cards Mac Chrome (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Credit Cards Mac Firefox (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Test_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Test Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Test_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Test Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Test_Automation');
+function tableData_Test_Automation() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(24);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verify_item_displayed_in_search_results_list')
+data.setCell(0, 2, 'tests.SearchResultsTest')
+data.setCell(0, 3, 75796);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'user_should_be_on_credit_cards_page')
+data.setCell(1, 2, 'tests.CreditCardsRelatedTest')
+data.setCell(1, 3, 50216);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verify_item_displayed_in_search_results_list')
+data.setCell(2, 2, 'tests.SearchResultsTest')
+data.setCell(2, 3, 41680);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'user_should_be_on_savings_page')
+data.setCell(3, 2, 'tests.SavingsRelatedTest')
+data.setCell(3, 3, 40265);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verify_item_displayed_in_search_results_list')
+data.setCell(4, 2, 'tests.SearchResultsTest')
+data.setCell(4, 3, 37992);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'user_should_be_on_savings_page')
+data.setCell(5, 2, 'tests.SavingsRelatedTest')
+data.setCell(5, 3, 36980);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'user_should_be_on_checking_page')
+data.setCell(6, 2, 'tests.CheckingRelatedTest')
+data.setCell(6, 3, 35914);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verify_item_displayed_in_search_results_list')
+data.setCell(7, 2, 'tests.SearchResultsTest')
+data.setCell(7, 3, 30698);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verify_item_displayed_in_search_results_list')
+data.setCell(8, 2, 'tests.SearchResultsTest')
+data.setCell(8, 3, 29761);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'user_should_be_on_credit_cards_page')
+data.setCell(9, 2, 'tests.CreditCardsRelatedTest')
+data.setCell(9, 3, 25886);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'user_should_be_on_savings_page')
+data.setCell(10, 2, 'tests.SavingsRelatedTest')
+data.setCell(10, 3, 25798);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'user_should_be_on_savings_page')
+data.setCell(11, 2, 'tests.SavingsRelatedTest')
+data.setCell(11, 3, 25585);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'user_should_be_on_checking_page')
+data.setCell(12, 2, 'tests.CheckingRelatedTest')
+data.setCell(12, 3, 22979);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'user_should_be_on_checking_page')
+data.setCell(13, 2, 'tests.CheckingRelatedTest')
+data.setCell(13, 3, 22515);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'user_should_be_on_credit_cards_page')
+data.setCell(14, 2, 'tests.CreditCardsRelatedTest')
+data.setCell(14, 3, 22101);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'user_should_be_on_checking_page')
+data.setCell(15, 2, 'tests.CheckingRelatedTest')
+data.setCell(15, 3, 21729);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'user_should_be_on_checking_page')
+data.setCell(16, 2, 'tests.CheckingRelatedTest')
+data.setCell(16, 3, 21682);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'user_should_be_on_credit_cards_page')
+data.setCell(17, 2, 'tests.CreditCardsRelatedTest')
+data.setCell(17, 3, 20732);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'user_should_be_on_savings_page')
+data.setCell(18, 2, 'tests.SavingsRelatedTest')
+data.setCell(18, 3, 20706);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'user_should_be_on_credit_cards_page')
+data.setCell(19, 2, 'tests.CreditCardsRelatedTest')
+data.setCell(19, 3, 19598);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'user_should_be_on_savings_page')
+data.setCell(20, 2, 'tests.SavingsRelatedTest')
+data.setCell(20, 3, 16680);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'user_should_be_on_credit_cards_page')
+data.setCell(21, 2, 'tests.CreditCardsRelatedTest')
+data.setCell(21, 3, 11214);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verify_item_displayed_in_search_results_list')
+data.setCell(22, 2, 'tests.SearchResultsTest')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'user_should_be_on_checking_page')
+data.setCell(23, 2, 'tests.CheckingRelatedTest')
+data.setCell(23, 3, 0);
+window.suiteTableData['Test_Automation']= { tableData: data, tableDiv: 'times-div-Test_Automation'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 10 minutes</span>
+              <div id="times-div-Test_Automation">
+              </div> <!-- times-div-Test_Automation -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Test_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Test Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Test_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Test_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchResultsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verify_item_displayed_in_search_results_list</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckingRelatedTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">user_should_be_on_checking_page</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchResultsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp(Safari, Any, Mac, public void tests.SearchResultsTest.verify_item_displayed_in_search_results_list())</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Firefox, Any, Mac, public void tests.SearchResultsTest.verify_item_displayed_in_search_results_list(...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Chrome, Any, Windows, public void tests.SearchResultsTest.verify_item_displayed_in_search_results_li...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(IE, Any, Windows, public void tests.SearchResultsTest.verify_item_displayed_in_search_results_list())</span>
+                <span class="method-start">49 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Firefox, Any, Windows, public void tests.SearchResultsTest.verify_item_displayed_in_search_results_l...)</span>
+                <span class="method-start">55 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckingRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(IE, Any, Windows, public void tests.CheckingRelatedTest.user_should_be_on_checking_page())</span>
+                <span class="method-start">87 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Chrome, Any, Mac, public void tests.CheckingRelatedTest.user_should_be_on_checking_page())</span>
+                <span class="method-start">87 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Firefox, Any, Mac, public void tests.CheckingRelatedTest.user_should_be_on_checking_page())</span>
+                <span class="method-start">87 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Safari, Any, Mac, public void tests.CheckingRelatedTest.user_should_be_on_checking_page())</span>
+                <span class="method-start">87 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchResultsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Chrome, Any, Mac, public void tests.SearchResultsTest.verify_item_displayed_in_search_results_list())</span>
+                <span class="method-start">88 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckingRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Chrome, Any, Windows, public void tests.CheckingRelatedTest.user_should_be_on_checking_page())</span>
+                <span class="method-start">89 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Firefox, Any, Windows, public void tests.CheckingRelatedTest.user_should_be_on_checking_page())</span>
+                <span class="method-start">89 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">8650 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchResultsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">12888 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">13477 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">19737 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">20754 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckingRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">24595 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchResultsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verify_item_displayed_in_search_results_list</span>
+                <span class="method-start">25266 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckingRelatedTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">user_should_be_on_checking_page</span>
+                <span class="method-start">53916 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchResultsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verify_item_displayed_in_search_results_list</span>
+                <span class="method-start">62134 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">63259 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SavingsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Chrome, Any, Windows, public void tests.SavingsRelatedTest.user_should_be_on_savings_page())</span>
+                <span class="method-start">63960 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckingRelatedTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">user_should_be_on_checking_page</span>
+                <span class="method-start">66087 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchResultsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verify_item_displayed_in_search_results_list</span>
+                <span class="method-start">66173 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckingRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">70067 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">75598 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SavingsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Firefox, Any, Windows, public void tests.SavingsRelatedTest.user_should_be_on_savings_page())</span>
+                <span class="method-start">78208 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchResultsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verify_item_displayed_in_search_results_list</span>
+                <span class="method-start">86365 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckingRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">91322 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchResultsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">91916 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckingRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">99496 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">102002 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SavingsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(IE, Any, Windows, public void tests.SavingsRelatedTest.user_should_be_on_savings_page())</span>
+                <span class="method-start">102297 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchResultsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">107855 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SavingsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">108099 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Safari, Any, Mac, public void tests.SavingsRelatedTest.user_should_be_on_savings_page())</span>
+                <span class="method-start">108239 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckingRelatedTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">user_should_be_on_checking_page</span>
+                <span class="method-start">108574 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SavingsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">115308 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Chrome, Any, Mac, public void tests.SavingsRelatedTest.user_should_be_on_savings_page())</span>
+                <span class="method-start">115380 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckingRelatedTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">user_should_be_on_checking_page</span>
+                <span class="method-start">116561 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SavingsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">user_should_be_on_savings_page</span>
+                <span class="method-start">120624 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_should_be_on_savings_page</span>
+                <span class="method-start">123417 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckingRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">131089 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SavingsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Firefox, Any, Mac, public void tests.SavingsRelatedTest.user_should_be_on_savings_page())</span>
+                <span class="method-start">132279 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckingRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">138291 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SavingsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">146424 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreditCardsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Chrome, Any, Windows, public void tests.CreditCardsRelatedTest.user_should_be_on_credit_cards_page())</span>
+                <span class="method-start">146711 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SavingsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">149002 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreditCardsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Firefox, Any, Windows, public void tests.CreditCardsRelatedTest.user_should_be_on_credit_cards_page(...)</span>
+                <span class="method-start">149565 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(IE, Any, Windows, public void tests.CreditCardsRelatedTest.user_should_be_on_credit_cards_page())</span>
+                <span class="method-start">154998 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">155841 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchResultsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">160197 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreditCardsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">161448 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchResultsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">162161 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreditCardsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Safari, Any, Mac, public void tests.CreditCardsRelatedTest.user_should_be_on_credit_cards_page())</span>
+                <span class="method-start">162696 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SavingsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">165442 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckingRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">166297 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreditCardsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">user_should_be_on_credit_cards_page</span>
+                <span class="method-start">168328 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">user_should_be_on_credit_cards_page</span>
+                <span class="method-start">172568 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SavingsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">user_should_be_on_savings_page</span>
+                <span class="method-start">174834 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">176980 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchResultsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verify_item_displayed_in_search_results_list</span>
+                <span class="method-start">179778 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckingRelatedTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">user_should_be_on_checking_page</span>
+                <span class="method-start">188429 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreditCardsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">194214 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SavingsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">195541 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreditCardsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Chrome, Any, Mac, public void tests.CreditCardsRelatedTest.user_should_be_on_credit_cards_page())</span>
+                <span class="method-start">196302 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Firefox, Any, Mac, public void tests.CreditCardsRelatedTest.user_should_be_on_credit_cards_page())</span>
+                <span class="method-start">197019 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SavingsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">user_should_be_on_savings_page</span>
+                <span class="method-start">201973 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreditCardsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">203307 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchResultsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">210476 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckingRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">211408 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreditCardsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">user_should_be_on_credit_cards_page</span>
+                <span class="method-start">213015 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SavingsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">216624 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreditCardsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">222786 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SavingsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">user_should_be_on_savings_page</span>
+                <span class="method-start">227662 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreditCardsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">227662 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">232613 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">233255 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SavingsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">238953 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreditCardsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">user_should_be_on_credit_cards_page</span>
+                <span class="method-start">241200 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">user_should_be_on_credit_cards_page</span>
+                <span class="method-start">243289 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">263301 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">264022 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SavingsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">267927 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchResultsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">306373 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckingRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">391050 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreditCardsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">405359 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SavingsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpAllPages</span>
+                <span class="method-start">409761 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreditCardsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">user_should_be_on_credit_cards_page</span>
+                <span class="method-start">414813 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SavingsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">user_should_be_on_savings_page</span>
+                <span class="method-start">420496 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreditCardsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">426027 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SavingsRelatedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">437176 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

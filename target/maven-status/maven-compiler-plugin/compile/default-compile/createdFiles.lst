@@ -1,0 +1,8 @@
+pages\banking\CheckingMainPage.class
+pages\banking\SavingsMainPage.class
+pages\banking\CreditCardsMainPage.class
+pages\HomePage.class
+pages\BankingDropDownPage.class
+pages\PageObject.class
+pages\SearchResultsPage.class
+base\BaseUtil.class
